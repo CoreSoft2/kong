@@ -123,6 +123,8 @@ perform significantly better than any previous version.
   - CORS: Properly return `Access-Control-Allow-Credentials: false` if 
     `Access-Control-Allow-Origin: *`.
     [#2104](https://github.com/Mashape/kong/pull/2104)
+  - HMAC-Auth: Generate a credential secret if none provided.
+    [#2158](https://github.com/Mashape/kong/pull/2158)
 
 ## [0.9.7] - 2016/12/21
 
